@@ -6,6 +6,8 @@
 
 KAMP 제조데이터 분석 경진대회 참여 · 팀 **안영잘부** · 정지혜, 윤효원
 
+**본인 기여(정지혜): 데이터 전처리 및 데이터 분석 전반**
+
 `Python` · `scikit-learn` · `Class Imbalance` · `Manufacturing Data`
 
 [결과보고서](docs/KAMP_report.pdf) · [검증 노트북](notebooks/01_validation.ipynb) · [예측 노트북](notebooks/02_prediction.ipynb) · [실험 비교](docs/experiments.md)

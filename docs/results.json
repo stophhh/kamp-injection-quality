@@ -1,0 +1,51 @@
+{
+  "source": "submission.zip/kamp.ipynb saved outputs; no retraining during portfolio preparation",
+  "cn7": {
+    "rows": 1211,
+    "defects": 17,
+    "validation": "4-fold StratifiedGroupKFold by TimeStamp, shuffle=True, random_state=42, pooled OOF",
+    "average_precision": 0.522,
+    "roc_auc": 0.975,
+    "inspection": [
+      {
+        "rate": 0.05,
+        "inspected": 61,
+        "caught": 14
+      },
+      {
+        "rate": 0.1,
+        "inspected": 122,
+        "caught": 16
+      },
+      {
+        "rate": 0.2,
+        "inspected": 243,
+        "caught": 17
+      }
+    ]
+  },
+  "rg3": {
+    "train_rows": 682,
+    "train_defects": 15,
+    "validation_rows": 500,
+    "validation_defects": 10,
+    "split": "train TimeStamp < 2020-10-23; validation >= 2020-10-23",
+    "inspection": [
+      {
+        "rate": 0.05,
+        "inspected": 25,
+        "caught": 2
+      },
+      {
+        "rate": 0.1,
+        "inspected": 50,
+        "caught": 3
+      },
+      {
+        "rate": 0.2,
+        "inspected": 100,
+        "caught": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+# 데이터·행 단위 예측·학습 모델
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.pdf
+*.docx
+*.pptx
+results/
+outputs/
+data/*
+!data/README.md
+# 계정·로컬 환경
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+
+# 공개 검토한 결과보고서만 예외
+!docs/KAMP_report.pdf
